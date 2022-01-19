@@ -1,0 +1,3 @@
+export const SET_AUTHTOKEN = 'SET_AUTHTOKEN'
+export const SET_ROLE = 'SET_ROLE'
+export const SET_ACCOUNTNAME = 'SET_ACCOUNTNAME'

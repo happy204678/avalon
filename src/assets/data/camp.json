@@ -1,0 +1,164 @@
+{  
+  "0": {
+      "quantity": 5,
+      "good": 3,
+      "bad": 2,
+      "task": [
+        {
+          "num": 2,
+          "failCondition": 1
+        },
+        {
+          "num": 3, 
+          "failCondition": 1
+        },
+        {
+          "num": 2, 
+          "failCondition": 1
+        },
+        {
+          "num": 3, 
+          "failCondition": 1
+        },
+        {
+          "num": 3, 
+          "failCondition": 1
+        }
+      ]
+  },
+  "1": {
+      "quantity": 6,
+      "good": 4,
+      "bad": 2,
+      "task": [
+        {
+          "num": 2,
+          "failCondition": 1
+        },
+        {
+          "num": 3, 
+          "failCondition": 1
+        },
+        {
+          "num": 4, 
+          "failCondition": 1
+        },
+        {
+          "num": 3, 
+          "failCondition": 1
+        },
+        {
+          "num": 4, 
+          "failCondition": 1
+        }
+      ]
+  },
+  "2": {
+      "quantity": 7,
+      "good": 4,
+      "bad": 3,
+      "task": [
+        {
+          "num": 2,
+          "failCondition": 1
+        },
+        {
+          "num": 3, 
+          "failCondition": 1
+        },
+        {
+          "num": 3, 
+          "failCondition": 1
+        },
+        {
+          "num": 4, 
+          "failCondition": 2
+        },
+        {
+          "num": 4, 
+          "failCondition": 1
+        }
+      ]
+  },
+  "3": {
+      "quantity": 8,
+      "good": 4,
+      "bad": 3,
+      "task": [
+        {
+          "num": 3,
+          "failCondition": 1
+        },
+        {
+          "num": 4, 
+          "failCondition": 1
+        },
+        {
+          "num": 4, 
+          "failCondition": 1
+        },
+        {
+          "num": 5, 
+          "failCondition": 2
+        },
+        {
+          "num": 5, 
+          "failCondition": 1
+        }
+      ]
+  },
+  "4": {
+      "quantity": 9,
+      "good": 6,
+      "bad": 3,
+      "task": [
+        {
+          "num": 3,
+          "failCondition": 1
+        },
+        {
+          "num": 4, 
+          "failCondition": 1
+        },
+        {
+          "num": 4, 
+          "failCondition": 1
+        },
+        {
+          "num": 5, 
+          "failCondition": 2
+        },
+        {
+          "num": 5, 
+          "failCondition": 1
+        }
+      ]
+  },
+  "5": {
+      "quantity": 10,
+      "good": 6,
+      "bad": 4,
+      "task": [
+        {
+          "num": 3,
+          "failCondition": 1
+        },
+        {
+          "num": 4, 
+          "failCondition": 1
+        },
+        {
+          "num": 4, 
+          "failCondition": 1
+        },
+        {
+          "num": 5, 
+          "failCondition": 2
+        },
+        {
+          "num": 5, 
+          "failCondition": 1
+        }
+      ]
+  }
+}
