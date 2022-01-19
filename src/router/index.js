@@ -11,14 +11,12 @@ const router = new Router({
     {
       path: '/',
       name: 'avalon_hall',
-      component: avalon_hall,
-      meta: { requireAuth: true }
+      component: avalon_hall
     },
     {
       path: '/game',
       name: 'avalon_game',
-      component: avalon_game,
-      meta: { requireAuth: true }
+      component: avalon_game
     }
   ]
 })

@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <router-view />
-    <header-component v-show="!showMain" />
+    <hint-component v-show="!showMain" />
 
   </div>
 </template>
 
 <script>
-import headerComponent from '@/components/header'
+import hintComponent from '@/components/hint'
 
 export default {
   name: 'App',
   components: {
-    headerComponent
+    hintComponent
   },
   data () {
     return {

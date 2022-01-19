@@ -13,7 +13,7 @@
         <h4 v-if="gameSet.order.length > 0" :class="{'show-visibility':cardHovering}">{{json[gameSet.order[cardCheckIndex]].name}}</h4>
         <div v-if="gameSet.order.length > 0" class="container">
           <div class="front"></div>
-          <div class="back"><img :src="'../../../static/image/roles/' + gameSet.order[cardCheckIndex] + '.png'" /></div>
+          <div class="back"><img :src="'./././static/image/roles/' + gameSet.order[cardCheckIndex] + '.png'" /></div>
           <div class="right" :class="{'show-visibility':cardHovering}">{{json[gameSet.order[cardCheckIndex]].description}}</div>
         </div>
         <div class="bottom" @click="nextPlayer()">
@@ -102,7 +102,7 @@
           </div>
           <div class="flex-center average-ul">
             <div v-for="(item, index) in successList" :key="index">
-              <img :src="'../../../static/image/UI/misson-result' + (item ? 1 : 0) + '.png'" :class="{'an-taskfail': !item, 'an-tasksuc': item}"/>
+              <img :src="'./././static/image/UI/misson-result' + (item ? 1 : 0) + '.png'" :class="{'an-taskfail': !item, 'an-tasksuc': item}"/>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@
           <div class="flex-center average-ul">
             <div v-for="(item, index) in gameSet.order" :key="index">
               <div class="ab-top-mid">{{index + 1}} 號</div>
-              <img :src="'../../../static/image/roles/' + item + '.png'"/>
+              <img :src="'./././static/image/roles/' + item + '.png'"/>
             </div>
           </div>
 
